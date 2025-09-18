@@ -16,19 +16,3 @@ pub enum Face{
     },
 }
 
-#[derive(Debug)]
-pub struct Creature {
-    pub fast: bool,
-    pub cost: usize,
-    pub offense: usize,
-    pub defense: usize,
-    pub energy: usize,
-}
-
-#[derive(Debug)]
-pub struct Spell{
-    pub fast: bool,
-    pub cost: usize,
-    pub effects: &'static [Effect],
-
-}
