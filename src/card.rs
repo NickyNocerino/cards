@@ -1,6 +1,7 @@
-use crate::effects::effect::Effect;
+use crate::face::Face;
 
+#[derive(Debug)]
 pub struct Card {
-    fast: bool,
-    effects: Vec<Effect>,
+    pub front: Option<Face>,
+    pub back: Option<Face>,
 }

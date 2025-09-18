@@ -1,7 +1,10 @@
+#[derive(Debug)]
 pub enum Effect{
+    AddAnEnergy,
     DrawACard,
-    DiscardACard,
-    DrawNCards(usize),
-    DiscardNCards(usize),
-
+    DiscardACardAtRandom,
+    DiscardACardOfYourChoice,
+    FlipThisCArd,
+    WinTheGame,
+    LoseTheGame,
 }

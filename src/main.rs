@@ -1,3 +1,5 @@
+use cards::legal_cards::example::EXAMPLE_CARD;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", EXAMPLE_CARD);
 }
