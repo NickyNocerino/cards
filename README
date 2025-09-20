@@ -16,10 +16,12 @@ when a player plays a card, if there is no stack, the stack it created,
 then in turn order, each player has an opertunity to play any number of fast card in any order onto the stack
 if the opertunity makes it back to the player whose card is on top of the stack, the entire stack resolves
 
-creatures can attack 1 player, make energy, or hold back to block on a turn
+creatures can attack 1 player, make energy, or hold back to block/make energy on an turn opponent's
 
-player can block creatures with thier creatures, combat is a simplified magic the gathering combat,
- but damage does not stick, damage either does or does not kill a creature
+attacking or making energy drains a creature, they refill at the begining of your next turn
+
+player can block creatures with thier undrained creatures, combat is a simplified magic the gathering combat,
+ but damage does not stick after combat or a stack resolves
 
 if a creature hits a player, move cards equal to that creature's offense from the top of the hit players deck into the trash
 

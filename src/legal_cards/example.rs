@@ -13,6 +13,6 @@ pub static EXAMPLE_CARD: Card = Card{
     back: Some(Face::Spell{
         fast: true,
         cost: 2,
-        effects: &[Effect::DrawACard]
+        effects: &[Effect::DrawNCards(1)]
     })
 };
